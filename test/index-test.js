@@ -12,10 +12,7 @@ describe('Fix the Scope', function() {
       expect(window.yourAnimal()).toEqual('cat')
     })
 
-    it('does not hard-code the answer', function() {
-      expect(window.yourAnimal.toString()).toNotContain("return 'cat'")
-    })
-  })
+  
 
   describe('add2(n)', function() {
     it('adds two to n', function() {
